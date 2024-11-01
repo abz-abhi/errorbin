@@ -1,26 +1,27 @@
-.before-after-div {
+.before-after-select {
   position: relative;
   overflow: hidden;
+  left: -20px;
 }
 
-.before-after-div::before {
+.before-after-select::before {
   content: "";
   position: absolute;
   width: 2px;
-  height: 80px;
+  height: 60px;
   transform: rotate(-32deg);
   left: 20px;
   top: -5px;
   background-color: black;
 }
 
-.before-after-div::after {
+.before-after-select::after {
   content: "";
   position: absolute;
   width: 2px;
-  height: 80px;
+  height: 60px;
   transform: rotate(23deg);
-  left: 56px;
-  top: -8px;
+  left: 47px;
+  top: -7px;
   background-color: black;
 }
