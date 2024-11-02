@@ -1,11 +1,11 @@
 .before-after-select {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   overflow: hidden;
   top: -20px;
   background: transparent;
-  transition:  0.3s ease;
+  transition: 0.3s ease;
 }
 
 .before-after-select::before {
@@ -28,4 +28,25 @@
   left: 33px;
   top: -2px;
   background-color: black;
+}
+
+.hide-x {
+  display: flex;
+}
+
+.hide-x::before {
+  content: "";
+  height: 80px;
+  width: 2px;
+  transform: rotate(40deg);
+  background-color: black;
+  margin-left: 40px;
+}
+.hide-x::after {
+  content: "";
+  height: 80px;
+  width: 2px;
+  transform: rotate(-40deg);
+  background-color: black;
+  
 }

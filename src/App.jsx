@@ -7,15 +7,20 @@ function App() {
   return (
     <div
       style={{ boxShadow: "4px 4px 40px #000 inset" }}
-      className="h-screen w-screen bg-white"
+      className="h-screen  w-screen bg-white"
     >
-      <div className="navbar flex justify-between">
-        <div>
-          <img src="../public/Logo 1.png" alt="Logo" className="ml-4 mt-16" />
+      <div className="flex justify-between w-full max-h-32">
+        <div className="">
+          <img
+            src="../public/Logo 1.png"
+            alt="Logo"
+            className="ml-4 mt-14 max-w-52"
+          />
         </div>
-        <div className="mr-[40rem]">
+        <div className="  flex">
           <nav>
-            <ul className="flex gap-12 font-medium pt-4 w-full">
+            <div className=" h-8 w-8 rounded-full absolute -top-2 border border-black ml-[28rem] "></div>
+            <ul className="flex gap-12 font-medium pt-4  ">
               <li
                 onClick={() => setSelect("home")}
                 className="relative flex flex-col items-center pt-14 cursor-pointer"
@@ -74,6 +79,10 @@ function App() {
               </li>
             </ul>
           </nav>
+          <div className="hide-x bg-white h-20 w-20 mt-11" ></div>
+        </div>
+        <div className="  ">
+          <img src="../public/Vector.png" alt="" className="pt-20 mr-60 " />
         </div>
       </div>
     </div>
