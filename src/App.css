@@ -1,27 +1,31 @@
 .before-after-select {
-  position: relative;
+  position: absolute;
+  width: 50px;
+  height: 50px;
   overflow: hidden;
-  left: -20px;
+  top: -20px;
+  background: transparent;
+  transition:  0.3s ease;
 }
 
 .before-after-select::before {
   content: "";
   position: absolute;
   width: 2px;
-  height: 60px;
-  transform: rotate(-32deg);
-  left: 20px;
-  top: -5px;
+  height: 40px;
+  transform: rotate(-38deg);
+  left: 12px;
   background-color: black;
+  border-radius: 0 0 10px 2px;
 }
 
 .before-after-select::after {
   content: "";
   position: absolute;
   width: 2px;
-  height: 60px;
-  transform: rotate(23deg);
-  left: 47px;
-  top: -7px;
+  height: 40px;
+  transform: rotate(30deg);
+  left: 33px;
+  top: -2px;
   background-color: black;
 }
