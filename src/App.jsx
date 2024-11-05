@@ -12,6 +12,7 @@ function App() {
       {/* nav bar */}
 
       <div className="flex justify-between w-full max-h-32">
+        {/* errorbin logo */}
         <div className="">
           <img
             src="../public/Logo 1.png"
@@ -19,6 +20,7 @@ function App() {
             className="ml-4 mt-14 max-w-52"
           />
         </div>
+        {/* navitem */}
         <div className="  flex">
           <nav>
             <div className=" h-8 w-8 rounded-full absolute -top-2 border border-black ml-[28rem]  "></div>
@@ -81,8 +83,10 @@ function App() {
               </li>
             </ul>
           </nav>
+          {/* x-icon */}
           <div className="hide-x bg-white h-20 w-20 mt-11 ml-6"></div>
         </div>
+        {/* right side ligi */}
         <div className="  ">
           <img src="../public/Vector.png" alt="" className="pt-20 mr-60 " />
         </div>
@@ -91,12 +95,13 @@ function App() {
       {/* body */}
 
       <div className="flex justify-center">
+        {/* welcome box */}
         <div className=" flex flex-col absolute left-40 top-64 gap-10 ">
           <h1 className="text-[60px] font-light">WELCOME TO</h1>
           <h1 className="text-[80px] font-bold leading-tight">
             THE FUTURE <br /> BUSINESS
           </h1>
-          <ul className="expand-ul space-y-1 ml-7">
+          <ul className="expand-ul text-sm space-y-1 ml-7">
             <li>
               Experience the enchanting blend of ancient history <br /> and
               modern allure in Istanbul and Cappadocia
@@ -111,7 +116,7 @@ function App() {
             </li>
           </ul>
         </div>
-
+        {/* center box */}
         <div className="center-div  w-[40rem] h-[40rem] mt-[6rem] ">
           <img
             className="h-[490px] w-[490px]"
@@ -119,16 +124,41 @@ function App() {
             alt=""
           />
         </div>
-
-        <div className="absolute mt-[45rem] -ml-[95rem] space-y-4">
-          <div className="flex gap-10 justify-center">
-            <img src="../public/Star 1.png" alt="" />
-            <img src="../public/Star 1.png" alt="" />
+        {/* bottom box */}
+        <div className="bottom-wrap flex flex-row absolute gap-14 mt-[43rem] -ml-[60rem]">
+          {/* star and contact */}
+          <div className="space-y-4 pt-3">
+            <div className="flex gap-10 justify-center">
+              <img src="../public/Star 1.png" alt="" />
+              <img src="../public/Star 1.png" alt="" />
+            </div>
+            <div className="flex justify-center items-center bg-black  w-48 h-16">
+              <h1 className="font-bold text-2xl text-white">CONTACT US</h1>
+            </div>
           </div>
-          <div className="flex justify-center items-center   w-48">
-            <h1 className="font-bold text-2xl">CONTACT US</h1>
+          {/* bottom discription */}
+          <div className="flex items-center w-[500px] h-[140px] rounded-lg bg-[rgb(239,232,232,0.8)]  ">
+            <p className="pl-3">
+              Experience the enchanting blend of ancient history and modern
+              allure in Istanbul and Cappadocia. Experience the enchanting blend
+              of ancient history and modern allure in Istanbul and Cappadocia..
+              Experience the enchanting blend of ancient history and modern
+              allure in Istanbul and Cappadocia.
+            </p>
           </div>
-          
+        </div>
+        {/* right side */}
+        <div className="triangle absolute  text-[24px] space-y-96 mt-[110px] ml-[40rem]">
+          <div className=" space-y-10 ">
+            <h1>15+ services</h1>
+            <h1 className="pl-24">Website</h1>
+          </div>
+          <div className=" space-y-10">
+            <h1 className="pl-24">Mobile App</h1>
+            <h1>Digital marketing</h1>
+          </div>
+          <img className="absolute top-[260px] left-10" src="../public/Polygon 1.svg" alt="" />
+          <img className="absolute -top-28 left-40 h-10 rotate-45" src="../public/Polygon 1.svg" alt="" />
         </div>
       </div>
     </div>
