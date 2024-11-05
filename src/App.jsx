@@ -7,7 +7,7 @@ function App() {
   return (
     <div
       style={{ boxShadow: "4px 4px 40px #000 inset" }}
-      className="h-screen  w-screen bg-white"
+      className="h-screen  w-screen bg-white overflow-hidden"
     >
       {/* nav bar */}
 
@@ -21,7 +21,7 @@ function App() {
           />
         </div>
         {/* navitem */}
-        <div className="  flex">
+        <div className="  ml-24 flex">
           <nav>
             <div className=" h-8 w-8 rounded-full absolute -top-2 border border-black ml-[28rem]  "></div>
             <ul className="flex gap-12 font-medium pt-4 ">
@@ -159,6 +159,12 @@ function App() {
           </div>
           <img className="absolute top-[260px] left-10" src="../public/Polygon 1.svg" alt="" />
           <img className="absolute -top-28 left-40 h-10 rotate-45" src="../public/Polygon 1.svg" alt="" />
+        </div>
+        {/* dark mode */}
+        <div className="dark-round absolute flex flex-col items-center text-[20px] space-y-2 ml-[86rem] mt-72">
+          <h1>Switch To</h1>
+          <img src="../public/the-dark-removebg-preview 1.svg" alt="" />
+          <h1>World</h1>
         </div>
       </div>
     </div>

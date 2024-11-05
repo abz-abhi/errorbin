@@ -90,3 +90,13 @@
   margin-left: -24px;
   margin-top: -140px;
 }
+.dark-round::before{
+  content: "";
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid;
+  top: 140px;
+  left: 300px;
+}
