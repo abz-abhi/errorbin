@@ -9,6 +9,8 @@ function App() {
       style={{ boxShadow: "4px 4px 40px #000 inset" }}
       className="h-screen  w-screen bg-white"
     >
+      {/* nav bar */}
+
       <div className="flex justify-between w-full max-h-32">
         <div className="">
           <img
@@ -79,10 +81,42 @@ function App() {
               </li>
             </ul>
           </nav>
-          <div className="hide-x bg-white h-20 w-20 mt-11" ></div>
+          <div className="hide-x bg-white h-20 w-20 mt-11 ml-6"></div>
         </div>
         <div className="  ">
           <img src="../public/Vector.png" alt="" className="pt-20 mr-60 " />
+        </div>
+      </div>
+
+      {/* body */}
+
+      <div className="flex justify-center">
+        <div className=" flex flex-col absolute left-64 top-64 gap-10">
+          <h1 className="text-[60px] font-light">WELCOME TO</h1>
+          <h1 className="text-[80px] font-bold leading-tight">
+            THE FUTURE <br /> BUSINESS
+          </h1>
+          <ul>
+            <li>
+              Experience the enchanting blend of ancient history <br /> and
+              modern allure in Istanbul and Cappadocia
+            </li>
+            <li>
+              Experience the enchanting blend of ancient history <br /> and
+              modern allure
+            </li>
+            <li>
+              Experience the enchanting blend of ancient history <br /> and
+              modern allure in Istanbul and Cappadocia
+            </li>
+          </ul>
+        </div>
+        <div className="center-div  w-[40rem] h-[40rem] mt-[6rem]">
+          <img
+            className="h-[490px] w-[490px]"
+            src="../public/black-dots-10708375 1.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
