@@ -21,8 +21,8 @@ function App() {
         </div>
         <div className="  flex">
           <nav>
-            <div className=" h-8 w-8 rounded-full absolute -top-2 border border-black ml-[28rem] "></div>
-            <ul className="flex gap-12 font-medium pt-4  ">
+            <div className=" h-8 w-8 rounded-full absolute -top-2 border border-black ml-[28rem]  "></div>
+            <ul className="flex gap-12 font-medium pt-4 ">
               <li
                 onClick={() => setSelect("home")}
                 className="relative flex flex-col items-center pt-14 cursor-pointer"
@@ -91,12 +91,12 @@ function App() {
       {/* body */}
 
       <div className="flex justify-center">
-        <div className=" flex flex-col absolute left-64 top-64 gap-10">
+        <div className=" flex flex-col absolute left-40 top-64 gap-10 ">
           <h1 className="text-[60px] font-light">WELCOME TO</h1>
           <h1 className="text-[80px] font-bold leading-tight">
             THE FUTURE <br /> BUSINESS
           </h1>
-          <ul>
+          <ul className="expand-ul space-y-1 ml-7">
             <li>
               Experience the enchanting blend of ancient history <br /> and
               modern allure in Istanbul and Cappadocia
@@ -111,12 +111,24 @@ function App() {
             </li>
           </ul>
         </div>
-        <div className="center-div  w-[40rem] h-[40rem] mt-[6rem]">
+
+        <div className="center-div  w-[40rem] h-[40rem] mt-[6rem] ">
           <img
             className="h-[490px] w-[490px]"
             src="../public/black-dots-10708375 1.png"
             alt=""
           />
+        </div>
+
+        <div className="absolute mt-[45rem] -ml-[95rem] space-y-4">
+          <div className="flex gap-10 justify-center">
+            <img src="../public/Star 1.png" alt="" />
+            <img src="../public/Star 1.png" alt="" />
+          </div>
+          <div className="flex justify-center items-center   w-48">
+            <h1 className="font-bold text-2xl">CONTACT US</h1>
+          </div>
+          
         </div>
       </div>
     </div>
