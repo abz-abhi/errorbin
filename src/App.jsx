@@ -15,7 +15,7 @@ function App() {
         {/* errorbin logo */}
         <div className="">
           <img
-            src="../public/Logo 1.png"
+            src="/Logo 1.png"
             alt="Logo"
             className="ml-4 mt-14 max-w-52"
           />
@@ -88,7 +88,7 @@ function App() {
         </div>
         {/* right side ligi */}
         <div className="  ">
-          <img src="../public/Vector.png" alt="" className="pt-20 mr-60 " />
+          <img src="/Vector.png" alt="" className="pt-20 mr-60 " />
         </div>
       </div>
 
@@ -120,7 +120,7 @@ function App() {
         <div className="center-div  w-[40rem] h-[40rem] mt-[6rem] ">
           <img
             className="h-[490px] w-[490px]"
-            src="../public/black-dots-10708375 1.png"
+            src="/black-dots-10708375 1.png"
             alt=""
           />
         </div>
@@ -129,8 +129,8 @@ function App() {
           {/* star and contact */}
           <div className="space-y-4 pt-3">
             <div className="flex gap-10 justify-center">
-              <img src="../public/Star 1.png" alt="" />
-              <img src="../public/Star 1.png" alt="" />
+              <img src="/Star 1.png" alt="" />
+              <img src="/Star 1.png" alt="" />
             </div>
             <div className="flex justify-center items-center bg-black  w-48 h-16">
               <h1 className="font-bold text-2xl text-white">CONTACT US</h1>
@@ -157,13 +157,13 @@ function App() {
             <h1 className="pl-24">Mobile App</h1>
             <h1>Digital marketing</h1>
           </div>
-          <img className="absolute top-[260px] left-10" src="../public/Polygon 1.svg" alt="" />
-          <img className="absolute -top-28 left-40 h-10 rotate-45" src="../public/Polygon 1.svg" alt="" />
+          <img className="absolute top-[260px] left-10" src="/Polygon 1.svg" alt="" />
+          <img className="absolute -top-28 left-40 h-10 rotate-45" src="/Polygon 1.svg" alt="" />
         </div>
         {/* dark mode */}
         <div className="dark-round absolute flex flex-col items-center text-[20px] space-y-2 ml-[86rem] mt-72">
           <h1>Switch To</h1>
-          <img src="../public/the-dark-removebg-preview 1.svg" alt="" />
+          <img src="/the-dark-removebg-preview 1.svg" alt="" />
           <h1>World</h1>
         </div>
       </div>
